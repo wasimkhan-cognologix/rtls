@@ -2,7 +2,7 @@ package rtls
 
 import "fmt"
 
-// Print prints String "Hello, World!"
+// Print prints String "Hola, Techreveri!"
 func Print() {
-	fmt.Println("Hello, World!")
+	fmt.Println("Hola, Techreveri!")
 }
