@@ -2,7 +2,7 @@ package rtls
 
 import "fmt"
 
-// Print prints String "Hola, Techreveri!"
-func Print() {
-	fmt.Println("Hola, Techreveri!")
+// Print prints greetings with salutation and name passed as arguments
+func Print(salutation, name string) {
+	fmt.Printf("\n%s, %s!\n", salutation, name)
 }
